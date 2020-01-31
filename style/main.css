@@ -1,0 +1,80 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+table.periodic_table{
+    width: 100%;
+    height: 30em;
+    padding: 1em;
+}
+
+/* COLOURS */
+
+td.red, div.red{
+    background-color: #EA766B;
+}
+
+td.green, div.green{
+    background-color: #BAF7A7;
+}
+
+td.pink, div.pink {
+    background-color: #F4C4C1;
+}
+
+td.light_pink, div.light_pink{
+    background-color: #F3C8FC;
+}
+
+td.dark_pink, div.dark_pink{
+    background-color: #EEA4CB;
+}
+
+td.dark_yellow, div.dark_yellow{
+    background-color: #F9DEB2;
+}
+
+td.dark_green, div.dark_green{
+    background-color: #CCCA9D;
+}
+
+td.yellow, div.yellow{
+    background-color: #FFFBA3;
+}
+
+td.grey, div.grey{
+    background-color: #CCCCCC;
+}
+
+td.light_grey, div.light_grey{
+    background-color: #FCFCFC;
+    border: 2px solid gray;
+}
+
+td.blue, div.blue{
+    background-color: #CFFCFE;
+}
+
+table.periodic_table td.not_empty{
+    color: black;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+table.periodic_table td.not_empty:hover {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
